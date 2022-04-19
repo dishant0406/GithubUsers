@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login{
+  font-family: 'Secular One', sans-serif;
+  background: url('../../../assets/loginback.svg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+
+@media only screen and (min-width: 1280px) {
+  .login {height: 100vh;}
+}
+
+.logincontainer{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  
+
+}
+.logintext{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginimg img{
+  max-width: 40rem;
+  width: 100%;
+  overflow:hidden;
+}
+
+.logincontainer h2{
+  font-size: 3.5rem;
+  max-width: 40rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.logincontainer h3{
+  font-size: 1.5rem;
+  max-width: 25rem;
+  text-align: center;
+  color: #808080;
+  margin-top: 0.5rem;
+}
+
+.loginbtn{
+  font-size: 1.5rem;
+  padding: 10px 36px;
+  color: #fff;
+  background-color:#0066ff;
+  border-radius:5px;
+  margin-top: 3rem;
+  border: none;
+}
